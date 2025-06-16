@@ -1,3 +1,6 @@
+# 📚 Nepali Learning App — Project Structure
+
+```bash
 nepali-learning-app/
 ├── README.md
 ├── .gitignore
