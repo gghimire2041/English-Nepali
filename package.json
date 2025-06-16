@@ -1,0 +1,22 @@
+{
+  "name": "nepali-learning-app",
+  "version": "1.0.0",
+  "description": "A language learning app for Nepali American kids",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm run dev",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "workspaces": [
+    "frontend",
+    "backend",
+    "admin-panel"
+  ],
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": ["nepali", "language-learning", "react-native", "education"],
+  "authors": ["Your Name", "Pratap"]
+}
